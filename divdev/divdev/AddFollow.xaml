@@ -1,0 +1,21 @@
+﻿<Window x:Class="divdev.AddFollow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:divdev"
+        mc:Ignorable="d"
+        Title="Add Follow" Height="242.923" Width="300">
+    <Grid>
+        <Label Content="Customer ID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="83" FontFamily="Roboto" FontWeight="Bold"/>
+        <Label Content="Category ID" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.189,2.102" Margin="10,39,0,0" Width="102" FontFamily="Roboto" FontWeight="Bold"/>
+        <Label Content="Supplier ID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,68,0,0" Width="74" FontFamily="Roboto" FontWeight="Bold"/>
+        <Label Content="Product ID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="12,97,0,0" Width="74" FontFamily="Roboto" FontWeight="Bold"/>
+        <TextBox x:Name="txtCustomerID" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" Margin="117,10,0,0" FontFamily="Roboto"/>
+        <TextBox x:Name="txtCateID" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" Margin="117,41,0,0" FontFamily="Roboto"/>
+        <TextBox x:Name="txtSuppID" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" Margin="117,69,0,0" FontFamily="Roboto"/>
+        <TextBox x:Name="txtProdID" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" Margin="117,98,0,0" FontFamily="Roboto"/>
+        <Button x:Name="btnSaveFollow" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="117,152,0,0" Click="Button_Click" RenderTransformOrigin="0.459,-0.161" FontFamily="Roboto"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="divdev.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:divdev"
+        mc:Ignorable="d"
+        Title="Divergent Development Management" Height="350" Width="815" Cursor="Arrow">
+    <Grid Cursor="Arrow" Margin="0,0,2,0">
+        <Label Content="Data Management Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="260,10,0,0" FontFamily="Roboto" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="btnNewCustomer" Content="New Customer" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" RenderTransformOrigin="1.085,3.957" Margin="91,70,0,0" FontFamily="Roboto" Click="BtnNewCustomer_Click" Height="30"/>
+        <Button x:Name="btnNewProduct" Content="New Product" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" RenderTransformOrigin="1.085,3.957" Margin="231,71,0,0" FontFamily="Roboto" Click="BtnNewProduct_Click" Height="30"/>
+        <Button x:Name="btnNewOrder" Content="New Order" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="91,120,0,0" Height="30" Click="BtnNewOrder_Click" FontFamily="Roboto"/>
+        <Button x:Name="btnNewSupplier" Content="New Supplier" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="231,171,0,0" Height="30" FontFamily="Roboto" Click="BtnNewSupplier_Click"/>
+        <Button x:Name="btnNewReview" Content="New Review" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="91,171,0,0" Height="30" Click="BtnNewReview_Click" FontFamily="Roboto"/>
+        <Button x:Name="btnNewFollow" Content="New Follow" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="91,220,0,0" Height="30" Click="BtnNewFollow_Click" FontFamily="Roboto"/>
+        <Button x:Name="btnListCustomers" Content="List Customers" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="481,70,0,0" Height="30" FontFamily="Roboto" Click="BtnListCustomers_Click"/>
+        <Button x:Name="btnListOrders" Content="List Orders" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="481,120,0,0" Height="30" FontFamily="Roboto" Click="BtnListOrders_Click"/>
+        <Button x:Name="btnListReviews" Content="List Reviews" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="481,171,0,0" Height="30" FontFamily="Roboto" Click="BtnListReviews_Click"/>
+        <Button x:Name="btnListFollows" Content="List Follows" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="481,220,0,0" Height="30" FontFamily="Roboto" Click="BtnListFollows_Click"/>
+        <Button x:Name="btnListProducts" Content="List Products" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="621,71,0,0" Height="30" FontFamily="Roboto" Click="BtnListProducts_Click"/>
+        <Button x:Name="btnListCategories" Content="List Categories" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="621,120,0,0" Height="30" FontFamily="Roboto" Click="BtnListCategories_Click"/>
+        <Button x:Name="btnListSuppliers" Content="List Suppliers" HorizontalAlignment="Left" VerticalAlignment="Top" Width="90" Margin="621,171,0,0" Height="30" FontFamily="Roboto" Click="BtnListSuppliers_Click"/>
+        <Button Content="New Category" HorizontalAlignment="Left" Margin="231,120,0,0" VerticalAlignment="Top" Width="90" Height="30" FontFamily="Roboto" Click="BtnNewCategory_Click"/>
+    </Grid>
+</Window>

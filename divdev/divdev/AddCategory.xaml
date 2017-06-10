@@ -1,0 +1,18 @@
+﻿<Window x:Class="divdev.AddCategory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:divdev"
+        mc:Ignorable="d"
+        Title="Add Category" Height="239.037" Width="287.166">
+    <Grid>
+        <Label Content="Category Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,39,0,0" Width="95" FontFamily="Roboto" FontWeight="Bold"/>
+        <Label Content="Description" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="1.189,2.102" Margin="10,68,0,0" Width="88" FontFamily="Roboto" FontWeight="Bold"/>
+        <TextBox x:Name="txtCateName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="117,40,0,0"/>
+        <TextBox x:Name="txtCateDesc" HorizontalAlignment="Left" Height="60" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="117,68,0,0"/>
+        <Button x:Name="btnSaveCategory" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="104,166,0,0" Click="Button_Click" RenderTransformOrigin="0.459,-0.161"/>
+        <Label Content="Category ID" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Roboto" RenderTransformOrigin="0.029,-0.446"/>
+        <TextBox x:Name="txtCatid" HorizontalAlignment="Left" Height="23" Margin="117,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>

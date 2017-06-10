@@ -1,0 +1,23 @@
+﻿<Window x:Class="divdev.AddReview"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:divdev"
+        mc:Ignorable="d"
+        Title="Add Review" Height="332.769" Width="314.618">
+    <Grid>
+        <Label Content="Username" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="85" FontFamily="Roboto" FontWeight="Bold"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Margin="117,10,0,0" FontFamily="Roboto"/>
+        <Label Content="Product ID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,41,0,0" Width="70" FontFamily="Roboto" FontWeight="Bold"/>
+        <TextBox x:Name="txtProductID" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Margin="117,41,0,0" FontFamily="Roboto"/>
+        <Label Content="Review Date" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,72,0,0" Width="85" FontFamily="Roboto" FontWeight="Bold"/>
+        <TextBox x:Name="txtReviewDate" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Margin="117,72,0,0" FontFamily="Roboto"/>
+        <Label Content="Comments" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,103,0,0" Width="85" FontFamily="Roboto" FontWeight="Bold"/>
+        <TextBox x:Name="txtComment" HorizontalAlignment="Left" Height="70" TextWrapping="Wrap" VerticalAlignment="Top" Width="160" Margin="117,103,0,0" FontFamily="Roboto"/>
+        <Label Content="Rating" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,179,0,0" Width="85" FontFamily="Roboto" FontWeight="Bold"/>
+        <TextBox x:Name="txtRating" HorizontalAlignment="Left" Height="27" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Margin="117,178,0,0" FontFamily="Roboto"/>
+        <Button x:Name="btnSaveReview" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="107,245,0,0" Click="Button_Click" RenderTransformOrigin="0.459,-0.161" FontFamily="Roboto"/>
+
+    </Grid>
+</Window>

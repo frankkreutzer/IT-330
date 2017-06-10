@@ -1,0 +1,21 @@
+﻿<Window x:Class="divdev.AddSupplier"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:divdev"
+        mc:Ignorable="d"
+        Title="Add Supplier" Height="269.519" Width="281.551">
+    <Grid>
+        <Label Content="Supplier ID" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="88" FontFamily="Roboto" FontWeight="Bold"/>
+        <TextBox x:Name="txtSupplierID" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="117,12,0,0" FontFamily="Roboto"/>
+        <Label Content="Company Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,39,0,0" Width="96" FontWeight="Bold" FontFamily="Roboto"/>
+        <TextBox x:Name="txtSupplierName" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="117,43,0,0" FontFamily="Roboto"/>
+        <Label Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,68,0,0" Width="88" FontWeight="Bold" FontFamily="Roboto"/>
+        <TextBox x:Name="txtContact" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Margin="117,71,0,0" FontFamily="Roboto"/>
+        <Label Content="Website" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,97,0,0" Width="88" FontWeight="Bold" FontFamily="Roboto"/>
+        <TextBox x:Name="txtWebsite" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Margin="117,99,0,0" FontFamily="Roboto"/>
+        <Button x:Name="btnSaveCategory" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="108,187,0,0" Click="Button_Click" RenderTransformOrigin="0.459,-0.161" FontFamily="Roboto"/>
+
+    </Grid>
+</Window>
